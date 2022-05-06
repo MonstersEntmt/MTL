@@ -667,6 +667,4 @@ namespace MTL
 	constexpr float Qbrt(float x) { return Exp(Log(x) * 0.25f); }
 
 	constexpr float Signum(float x) { return x < 0.0f ? -1.0f : (x > 0.0f ? 1.0f : 0.0f); }
-
-	static constexpr float A = ArcSec(1.0f);
 } // namespace MTL
